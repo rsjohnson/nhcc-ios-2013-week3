@@ -21,6 +21,14 @@
 		94A1367D1828226D005319C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A1365F1828226D005319C5 /* UIKit.framework */; };
 		94A136851828226D005319C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A136831828226D005319C5 /* InfoPlist.strings */; };
 		94A136871828226D005319C5 /* Week_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A136861828226D005319C5 /* Week_3Tests.m */; };
+		94A13697182822F2005319C5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13691182822F2005319C5 /* 6.jpg */; };
+		94A13698182822F2005319C5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13692182822F2005319C5 /* 5.jpg */; };
+		94A13699182822F2005319C5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13693182822F2005319C5 /* 4.jpg */; };
+		94A1369A182822F2005319C5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13694182822F2005319C5 /* 3.jpg */; };
+		94A1369B182822F2005319C5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13695182822F2005319C5 /* 2.jpg */; };
+		94A1369C182822F2005319C5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13696182822F2005319C5 /* 1.jpg */; };
+		94A1369E18282307005319C5 /* students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A1369D18282307005319C5 /* students.plist */; };
+		94A136A118282318005319C5 /* NHFakeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A136A018282318005319C5 /* NHFakeStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		94A136821828226D005319C5 /* Week 3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week 3Tests-Info.plist"; sourceTree = "<group>"; };
 		94A136841828226D005319C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94A136861828226D005319C5 /* Week_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_3Tests.m; sourceTree = "<group>"; };
+		94A13691182822F2005319C5 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		94A13692182822F2005319C5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		94A13693182822F2005319C5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		94A13694182822F2005319C5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		94A13695182822F2005319C5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		94A13696182822F2005319C5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		94A1369D18282307005319C5 /* students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = students.plist; sourceTree = "<group>"; };
+		94A1369F18282318005319C5 /* NHFakeStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFakeStudent.h; sourceTree = "<group>"; };
+		94A136A018282318005319C5 /* NHFakeStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFakeStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +136,8 @@
 				94A136711828226D005319C5 /* NHViewController.m */,
 				94A136731828226D005319C5 /* Images.xcassets */,
 				94A136621828226D005319C5 /* Supporting Files */,
+				94A1369F18282318005319C5 /* NHFakeStudent.h */,
+				94A136A018282318005319C5 /* NHFakeStudent.m */,
 			);
 			path = "Week 3";
 			sourceTree = "<group>";
@@ -126,6 +145,8 @@
 		94A136621828226D005319C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94A1369D18282307005319C5 /* students.plist */,
+				94A13690182822E4005319C5 /* Images */,
 				94A136631828226D005319C5 /* Week 3-Info.plist */,
 				94A136641828226D005319C5 /* InfoPlist.strings */,
 				94A136671828226D005319C5 /* main.m */,
@@ -150,6 +171,19 @@
 				94A136831828226D005319C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A13690182822E4005319C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				94A13691182822F2005319C5 /* 6.jpg */,
+				94A13692182822F2005319C5 /* 5.jpg */,
+				94A13693182822F2005319C5 /* 4.jpg */,
+				94A13694182822F2005319C5 /* 3.jpg */,
+				94A13695182822F2005319C5 /* 2.jpg */,
+				94A13696182822F2005319C5 /* 1.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +263,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A13699182822F2005319C5 /* 4.jpg in Resources */,
 				94A136741828226D005319C5 /* Images.xcassets in Resources */,
+				94A1369E18282307005319C5 /* students.plist in Resources */,
+				94A13698182822F2005319C5 /* 5.jpg in Resources */,
 				94A136661828226D005319C5 /* InfoPlist.strings in Resources */,
+				94A13697182822F2005319C5 /* 6.jpg in Resources */,
+				94A1369A182822F2005319C5 /* 3.jpg in Resources */,
+				94A1369C182822F2005319C5 /* 1.jpg in Resources */,
+				94A1369B182822F2005319C5 /* 2.jpg in Resources */,
 				94A1366F1828226D005319C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +293,7 @@
 			files = (
 				94A136721828226D005319C5 /* NHViewController.m in Sources */,
 				94A1366C1828226D005319C5 /* NHAppDelegate.m in Sources */,
+				94A136A118282318005319C5 /* NHFakeStudent.m in Sources */,
 				94A136681828226D005319C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +503,7 @@
 				94A1368C1828226D005319C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94A1368D1828226D005319C5 /* Build configuration list for PBXNativeTarget "Week 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +512,7 @@
 				94A1368F1828226D005319C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
