@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9456731318288420004DBA6F /* NHStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9456731218288420004DBA6F /* NHStudentCell.m */; };
+		945673151828897E004DBA6F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945673141828897E004DBA6F /* MessageUI.framework */; };
+		9456731818288CA7004DBA6F /* NHPintrestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9456731718288CA7004DBA6F /* NHPintrestActivity.m */; };
 		94A1365C1828226D005319C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A1365B1828226D005319C5 /* Foundation.framework */; };
 		94A1365E1828226D005319C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A1365D1828226D005319C5 /* CoreGraphics.framework */; };
 		94A136601828226D005319C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A1365F1828226D005319C5 /* UIKit.framework */; };
@@ -29,6 +32,7 @@
 		94A1369C182822F2005319C5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A13696182822F2005319C5 /* 1.jpg */; };
 		94A1369E18282307005319C5 /* students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A1369D18282307005319C5 /* students.plist */; };
 		94A136A118282318005319C5 /* NHFakeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A136A018282318005319C5 /* NHFakeStudent.m */; };
+		94A136A418286C7F005319C5 /* NHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A136A318286C7F005319C5 /* NHView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9456731118288420004DBA6F /* NHStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHStudentCell.h; sourceTree = "<group>"; };
+		9456731218288420004DBA6F /* NHStudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHStudentCell.m; sourceTree = "<group>"; };
+		945673141828897E004DBA6F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9456731618288CA7004DBA6F /* NHPintrestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPintrestActivity.h; sourceTree = "<group>"; };
+		9456731718288CA7004DBA6F /* NHPintrestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPintrestActivity.m; sourceTree = "<group>"; };
 		94A136581828226D005319C5 /* Week 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A1365B1828226D005319C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94A1365D1828226D005319C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,6 +79,8 @@
 		94A1369D18282307005319C5 /* students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = students.plist; sourceTree = "<group>"; };
 		94A1369F18282318005319C5 /* NHFakeStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFakeStudent.h; sourceTree = "<group>"; };
 		94A136A018282318005319C5 /* NHFakeStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFakeStudent.m; sourceTree = "<group>"; };
+		94A136A218286C7F005319C5 /* NHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHView.h; sourceTree = "<group>"; };
+		94A136A318286C7F005319C5 /* NHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945673151828897E004DBA6F /* MessageUI.framework in Frameworks */,
 				94A1365E1828226D005319C5 /* CoreGraphics.framework in Frameworks */,
 				94A136601828226D005319C5 /* UIKit.framework in Frameworks */,
 				94A1365C1828226D005319C5 /* Foundation.framework in Frameworks */,
@@ -118,6 +130,7 @@
 		94A1365A1828226D005319C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				945673141828897E004DBA6F /* MessageUI.framework */,
 				94A1365B1828226D005319C5 /* Foundation.framework */,
 				94A1365D1828226D005319C5 /* CoreGraphics.framework */,
 				94A1365F1828226D005319C5 /* UIKit.framework */,
@@ -136,8 +149,13 @@
 				94A136711828226D005319C5 /* NHViewController.m */,
 				94A136731828226D005319C5 /* Images.xcassets */,
 				94A136621828226D005319C5 /* Supporting Files */,
-				94A1369F18282318005319C5 /* NHFakeStudent.h */,
 				94A136A018282318005319C5 /* NHFakeStudent.m */,
+				94A136A218286C7F005319C5 /* NHView.h */,
+				94A136A318286C7F005319C5 /* NHView.m */,
+				9456731118288420004DBA6F /* NHStudentCell.h */,
+				9456731218288420004DBA6F /* NHStudentCell.m */,
+				9456731618288CA7004DBA6F /* NHPintrestActivity.h */,
+				9456731718288CA7004DBA6F /* NHPintrestActivity.m */,
 			);
 			path = "Week 3";
 			sourceTree = "<group>";
@@ -149,6 +167,7 @@
 				94A13690182822E4005319C5 /* Images */,
 				94A136631828226D005319C5 /* Week 3-Info.plist */,
 				94A136641828226D005319C5 /* InfoPlist.strings */,
+				94A1369F18282318005319C5 /* NHFakeStudent.h */,
 				94A136671828226D005319C5 /* main.m */,
 				94A136691828226D005319C5 /* Week 3-Prefix.pch */,
 			);
@@ -292,9 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A136721828226D005319C5 /* NHViewController.m in Sources */,
+				9456731818288CA7004DBA6F /* NHPintrestActivity.m in Sources */,
+				9456731318288420004DBA6F /* NHStudentCell.m in Sources */,
 				94A1366C1828226D005319C5 /* NHAppDelegate.m in Sources */,
 				94A136A118282318005319C5 /* NHFakeStudent.m in Sources */,
 				94A136681828226D005319C5 /* main.m in Sources */,
+				94A136A418286C7F005319C5 /* NHView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,12 @@
 
 #import "NHFakeStudent.h"
 
+
+NSString * const NHFakeStudentDidLogoutNotification = @"NHFakeStudentDidLogoutNotification";
+
 @implementation NHFakeStudent
 
-+ (NSArray*) allFakeStudents {
++ (NSMutableArray*) allFakeStudents {
   static dispatch_once_t onceToken;
   static NSMutableArray * allStudents;
   dispatch_once(&onceToken, ^{
@@ -20,7 +23,7 @@
     for(NSDictionary *studentDictionary in students) {
       NHFakeStudent *student = [[NHFakeStudent alloc] init];
       [student setValuesForKeysWithDictionary:studentDictionary];
-      [allStudents addObject:students];
+      [allStudents addObject:student];
     }
   });
   

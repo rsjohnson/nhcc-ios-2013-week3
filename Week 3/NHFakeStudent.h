@@ -8,7 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const NHFakeStudentDidLogoutNotification;
+
 @interface NHFakeStudent : NSObject
+
++ (NSMutableArray*) allFakeStudents;
++ (void) saveAllStudents;
++ (void) loadAllStudents;
+
 
 @property (strong) NSString *name;
 @property (strong) NSString *imageName;

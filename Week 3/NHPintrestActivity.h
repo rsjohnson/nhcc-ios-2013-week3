@@ -1,5 +1,5 @@
 //
-//  NHViewController.h
+//  NHPintrestActivity.h
 //  Week 3
 //
 //  Created by Ryan Johnson on 11/4/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHViewController : UIViewController
-< UITableViewDataSource,
-  UITableViewDelegate >
+@interface NHPintrestActivity : UIActivity
 
 @end
